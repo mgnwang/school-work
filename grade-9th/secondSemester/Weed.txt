@@ -1,0 +1,15 @@
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
+
+public class JAppletPgm extends JApplet{
+	public void init(){
+		Weed wd = new Weed();
+		setContentPane(wd);
+	}
+}
+class Weed extends JPanel{//class header, implement MouseListener and KeyListener
+	public void paintComponent(Graphics g){//paint component method
+		super.paintComponent(g);
+	}
+}		

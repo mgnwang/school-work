@@ -1,0 +1,9 @@
+//deepDishPizza is subclass of food
+
+public class DeepDishPizza extends Pizza{
+	
+	public DeepDishPizza(String x, String y){
+		super(x, y);
+	}
+
+}	
